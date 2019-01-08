@@ -1,0 +1,13 @@
+﻿  EngDictionary.c
+c:\users\abacker\desktop\engdictionary\engdictionary\engdictionary.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\abacker\desktop\engdictionary\engdictionary\engdictionary.c(147): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(123): note: 参见“wcscpy”的声明
+c:\users\abacker\desktop\engdictionary\engdictionary\engdictionary.c(148): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(123): note: 参见“wcscpy”的声明
+c:\users\abacker\desktop\engdictionary\engdictionary\engdictionary.c(149): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(123): note: 参见“wcscpy”的声明
+c:\users\abacker\desktop\engdictionary\engdictionary\engdictionary.c(156): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h(130): note: 参见“_wfopen”的声明
+c:\users\abacker\desktop\engdictionary\engdictionary\engdictionary.c(233): warning C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h(930): note: 参见“wscanf”的声明
+  EngDictionary.vcxproj -> C:\Users\ABacker\Desktop\EngDictionary\Debug\EngDictionary.exe
