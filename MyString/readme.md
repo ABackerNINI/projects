@@ -1,6 +1,6 @@
-# 描述
+# Describe
     MyString
-# 语言
+# Language
     c++
 # IDE
     vs

@@ -1,6 +1,6 @@
-# 描述
+# Describe
     KMP字符串匹配算法
-# 语言
+# Language
     c++
 # IDE
     vs

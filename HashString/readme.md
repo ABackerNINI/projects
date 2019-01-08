@@ -1,6 +1,6 @@
-# 描述
+# Describe
     哈希字符串
-# 语言
+# Language
     c++
 # IDE
     vs2013

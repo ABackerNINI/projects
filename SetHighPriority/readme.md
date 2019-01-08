@@ -1,6 +1,6 @@
-# 描述
+# Describe
     设置某进程为高优先级
-# 语言
+# Language
     c++
 # IDE
     vs

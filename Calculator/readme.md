@@ -1,6 +1,6 @@
-# 描述
+# Describe
     计算器
-# 语言
+# Language
     c++
 # IDE
     vs

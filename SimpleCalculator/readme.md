@@ -1,6 +1,6 @@
-# 描述
+# Describe
     简单计算器
-# 语言
+# Language
     c++
 # IDE
     vs

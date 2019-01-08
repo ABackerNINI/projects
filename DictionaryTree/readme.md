@@ -1,6 +1,6 @@
-# 描述
+# Describe
     字典树
-# 语言
+# Language
     c++
 # IDE
     vs2013

@@ -1,6 +1,6 @@
-# 描述
+# Describe
     智能指针
-# 语言
+# Language
     c++
 # IDE
     vs

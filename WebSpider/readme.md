@@ -1,6 +1,6 @@
-# 描述
+# Describe
     网页爬虫
-# 语言
+# Language
     c++
 # IDE
     vs

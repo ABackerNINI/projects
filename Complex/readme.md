@@ -1,6 +1,6 @@
-# 描述
+# Describe
     复数
-# 语言
+# Language
     c++
 # IDE
     vs2013
