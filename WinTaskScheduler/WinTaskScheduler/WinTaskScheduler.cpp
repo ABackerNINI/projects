@@ -1,6 +1,8 @@
-/**********************************************************************
- This sample schedules a task to start notepad.exe when a user logs on.
-**********************************************************************/
+/************************************************************************
+   Add task scheduler for windows when user logon.
+
+   Usage: WinTaskScheduler.exe TaskName ExecutablePath Arguments [Delay]
+ ************************************************************************/
 
 #define _WIN32_DCOM
 #define _CRT_SECURE_NO_WARNINGS
@@ -10,7 +12,7 @@
 #include <stdio.h>
 #include <comdef.h>
 #include <conio.h>
-//  Include the task header file.
+ // Include the task header file.
 #include <taskschd.h>
 
 #pragma comment(lib, "taskschd.lib")
@@ -31,12 +33,16 @@ int LogonStartScheduler(const wchar_t* taskName,
 
 // wstring strToStdWString(const string& str);
 
-// ./program TaskName ExecutablePath Arguments [Delay]
-// Delay: The format for this string is PnYnMnDTnHnMnS. 'T' is the date/time separator.
-//   P1M4DT2H5M specifies one month, four days, two hours, and five minutes.
+void Usage(const wchar_t* prog) {
+    wcout << prog << L" TaskName ExecutablePath Arguments [Delay]" << endl;
+    wcout << L"Delay: The format for this string is PnYnMnDTnHnMnS. 'T' is the date/time separator." << endl;
+    wcout << L"  P1M4DT2H5M specifies one month, four days, two hours, and five minutes." << endl;
+}
+
 int __cdecl wmain(int argc, wchar_t** argv) {
     if (argc < 4) {
         fprintf(stderr, "Wrong number of parameters!\n");
+        Usage(argv[0]);
         return 1;
     }
 

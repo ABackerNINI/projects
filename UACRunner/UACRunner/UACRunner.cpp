@@ -1,3 +1,10 @@
+/****************************************************************
+   A simple UAC runner for windows that prompts UAC for other
+   program especially for batch scripts.
+
+   Usage: UACRunner.exe ProgramPath Arg1 Arg2 Arg3 ...
+ ****************************************************************/
+
 #include <fstream>
 #include <iostream>
 
@@ -6,8 +13,17 @@
 
 using namespace std;
 
+void Usage(wchar_t* prog) {
+    wcout << prog << L" ProgramPath Arg1 Arg2 Arg3 ..." << endl;
+}
+
 int __cdecl wmain(int argc, wchar_t** argv)
 {
+    if (argc == 1) {
+        Usage(argv[0]);
+        return 1;
+    }
+
     wstring cmd;
     for (int i = 1; i < argc; ++i) {
         cmd.append(argv[i]);
