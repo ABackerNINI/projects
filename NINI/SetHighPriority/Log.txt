@@ -1,0 +1,3 @@
+SetHighPriority	NemuHeadless.exe		Failed!
+SetHighPriority	NemuPlayer.exe		Failed!
+SetHighPriority	NemuSVC.exe		Failed!

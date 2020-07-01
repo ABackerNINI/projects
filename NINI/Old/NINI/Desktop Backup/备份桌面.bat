@@ -1,0 +1,1 @@
+@"Desktop Backup.exe" 1 "C:\Documents and Settings\Administrator\×ÀÃæ\C" "C:\NINI\NINI\Desktop Backup\3"

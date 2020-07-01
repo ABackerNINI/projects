@@ -1,0 +1,12 @@
+
+
+SET OBJ=CREATEOBJECT("WSCRIPT.SHELL")
+
+
+'这是电脑的设置项目，请勿删除...'
+
+'禁用休眠...'
+	OBJ.RUN "CMD.EXE /C POWERCFG -H OFF",0
+
+'注册表项...'
+	OBJ.RUN "C:\NINI\RESET\WALLPAPER.REG"

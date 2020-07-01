@@ -1,0 +1,2 @@
+WSCRIPT.SLEEP 120000
+CREATEOBJECT("WSCRIPT.SHELL").RUN """C:\NINI\NINI\Desktop Backup\Desktop Backup.exe"""

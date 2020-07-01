@@ -1,0 +1,6 @@
+D:\MyCodes\C#\2015\BKup\BKup\bin\x64\Release\Inf.txt
+D:\MyCodes\C#\2015\BKup\BKup\bin\x64\Release\Log.nini
+C:\NINI\Backup\BKup.exe
+C:\NINI\Main\Inf.txt
+F:\QQ Files\Dialog\1105908317\Msg3.0.db
+F:\QQ Files\Dialog\1105908317\Msg3.0.db-journal

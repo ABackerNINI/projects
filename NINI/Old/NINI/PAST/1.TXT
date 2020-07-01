@@ -1,0 +1,34 @@
+
+图像名                       PID 会话名           会话#       内存使用 
+========================= ====== ================ ======== ============
+System Idle Process            0 Console                 0         16 K
+System                         4 Console                 0        288 K
+smss.exe                     608 Console                 0        432 K
+csrss.exe                    656 Console                 0      8,688 K
+winlogon.exe                 688 Console                 0      4,944 K
+services.exe                 736 Console                 0      3,576 K
+lsass.exe                    748 Console                 0      1,344 K
+ati2evxx.exe                 900 Console                 0      2,608 K
+svchost.exe                  920 Console                 0      5,068 K
+svchost.exe                 1000 Console                 0      4,604 K
+svchost.exe                 1064 Console                 0     25,244 K
+svchost.exe                 1224 Console                 0      3,832 K
+svchost.exe                 1296 Console                 0      4,056 K
+spoolsv.exe                 1580 Console                 0      4,816 K
+explorer.exe                1808 Console                 0     21,184 K
+ctfmon.exe                   624 Console                 0      3,460 K
+conime.exe                  1476 Console                 0      3,292 K
+alg.exe                      224 Console                 0      3,800 K
+sogouflash.exe              1084 Console                 0     32,208 K
+iexplore.exe                 604 Console                 0      2,780 K
+iexplore.exe                1148 Console                 0    106,172 K
+ThunderMini.exe             1348 Console                 0     15,124 K
+War3.exe                    1968 Console                 0     51,708 K
+wscript.exe                 3796 Console                 0      5,940 K
+wscript.exe                 2040 Console                 0      5,896 K
+cmd.exe                     2128 Console                 0      3,604 K
+wscript.exe                 3828 Console                 0      4,952 K
+cmd.exe                     3916 Console                 0      1,920 K
+cmd.exe                      832 Console                 0      1,800 K
+tasklist.exe                2484 Console                 0      4,672 K
+wmiprvse.exe                4076 Console                 0      5,968 K

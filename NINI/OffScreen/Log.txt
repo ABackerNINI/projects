@@ -1,0 +1,3 @@
+error:regist open key!
+regist false!
+The screen will be off in 3s...
