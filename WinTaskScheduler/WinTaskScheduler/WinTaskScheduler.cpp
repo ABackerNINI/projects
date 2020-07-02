@@ -34,13 +34,16 @@ int LogonStartScheduler(const wchar_t* taskName,
 // wstring strToStdWString(const string& str);
 
 void Usage(const wchar_t* prog) {
-    wcout << prog << L" TaskName ExecutablePath Arguments [Delay]" << endl;
+    wcout << prog << L" TaskName ExecutablePath [Arguments] [Delay]" << endl;
     wcout << L"Delay: The format for this string is PnYnMnDTnHnMnS. 'T' is the date/time separator." << endl;
     wcout << L"  P1M4DT2H5M specifies one month, four days, two hours, and five minutes." << endl;
+    wcout << L"Note: the third parameter will always be the 'Arguments'." << endl;
+    wcout << L"  For example, you should not omit the 'Arguments' when the 'Delay' is presented. " << endl;
+    wcout << L"    " << prog << L" \"TaskName\" \"exec.exe\" \"\" \"PT5S\"." << endl;
 }
 
 int __cdecl wmain(int argc, wchar_t** argv) {
-    if (argc < 4) {
+    if (argc - 1 < 2) {
         fprintf(stderr, "Wrong number of parameters!\n");
         Usage(argv[0]);
         return 1;
@@ -50,12 +53,12 @@ int __cdecl wmain(int argc, wchar_t** argv) {
 
     wcout << L"TaskName: " << argv[1] << endl;
     wcout << L"ExecutablePath: " << argv[2] << endl;
-    wcout << L"Arguments: " << argv[3] << endl;
+    if (argc >= 4)wcout << L"Arguments: " << argv[3] << endl;
     if (argc >= 5)wcout << L"Delay: " << argv[4] << endl;
 
     _getch();
 
-    LogonStartScheduler(argv[1], argv[2], argv[3], (argc >= 5 ? argv[4] : NULL), L"abacker");
+    LogonStartScheduler(argv[1], argv[2], (argc >= 4 ? argv[3] : NULL), (argc >= 5 ? argv[4] : NULL), L"abacker");
 
     _getch();
 
